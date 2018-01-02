@@ -1,16 +1,17 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding: 0;
     margin: 0;
     position: relative;
 }
 
 body {
-    font-size: 45px;
+    font-size: 36px;
 }
 
 .r-header {
+    background: #222222;
     height: 6rem;
     line-height: 6rem;
     text-align: center;
@@ -18,17 +19,51 @@ body {
 
 .r-header-nav {
     display: inline-block;
+    height: 100%;
+    line-height: 100%;
 }
 
 .r-header-nav ul li {
     display: inline-block;
+    float: left;
+    height: 100%;
+    margin: 0 1rem;
 }
 
 .r-header-nav ul li button {
-    display: block;
-    height: 2rem;
+    height: 6rem;
+    font-size: 100%;
     padding: 0 1rem;
     border-radius: 0.25rem;
+    background: transparent;
+    color: #FEFEFE;
+    outline: none;
 }
 
+.r-body {
+    background: orange;
+    height: calc(100vh - 10rem);
+    padding: 2rem;
+}
+
+.r-body-container {
+    height: 100%;
+    box-shadow: 0.25rem 0.25rem 0.25rem #999999;
+    padding: 2rem;
+    border-radius: 2rem;
+    background: #555555;
+    color: #FEFEFE;
+}
+
+.r-footer {
+    background: #EEEEEE;
+    height: 4rem;
+    font-size: 2rem;
+    color: #999999;
+    line-height: 4rem;
+}
+
+.r-footer p {
+    text-align: center;
+}
 
