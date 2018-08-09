@@ -6,35 +6,31 @@
     position: relative;
 }
 
-body {
-    font-size: 36px;
-}
-
 .r-header {
     background: #222222;
-    height: 6rem;
-    line-height: 6rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
     text-align: center;
+    font-size: .5rem;
 }
 
 .r-header-nav {
     display: inline-block;
-    height: 100%;
-    line-height: 100%;
 }
 
 .r-header-nav ul li {
     display: inline-block;
+    vertical-align: middle;
     float: left;
     height: 100%;
-    margin: 0 1rem;
+    margin: 0 .1rem;
 }
 
 .r-header-nav ul li button {
-    height: 6rem;
+    height: .6rem;
     font-size: 100%;
-    padding: 0 1rem;
-    border-radius: 0.25rem;
+    padding: 0 .1rem;
+    border-radius: .05rem;
     background: transparent;
     color: #FEFEFE;
     outline: none;
@@ -42,25 +38,26 @@ body {
 
 .r-body {
     background: orange;
-    height: calc(100vh - 10rem);
-    padding: 2rem;
+    height: calc(100vh - 2rem);
+    padding: .2rem;
 }
 
 .r-body-container {
     height: 100%;
-    box-shadow: 0.25rem 0.25rem 0.25rem #999999;
-    padding: 2rem;
-    border-radius: 2rem;
+    box-shadow: .05rem .05rem .05rem #999999;
+    padding: .2rem;
+    border-radius: .2rem;
+    font-size: .4rem;
     background: #555555;
     color: #FEFEFE;
 }
 
 .r-footer {
     background: #EEEEEE;
-    height: 4rem;
-    font-size: 2rem;
+    height: .8rem;
+    font-size: .35rem;
     color: #999999;
-    line-height: 4rem;
+    line-height: .8rem;
 }
 
 .r-footer p {
